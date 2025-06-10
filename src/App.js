@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const App = () => {
-  const launchDate = new Date('2025-07-01T00:00:00').getTime();
+  const launchDate = new Date('2025-07-15T00:00:00').getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: '00',
     hours: '00',
